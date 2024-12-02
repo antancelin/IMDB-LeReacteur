@@ -32,7 +32,7 @@ const App = () => {
         <View style={styles.logoView}>
           <Image source={logo} style={styles.logo} />
         </View>
-        <ScrollView>
+        <ScrollView showsVerticalScrollIndicator={false}>
           <View style={styles.globalContent}>
             <View style={styles.filmInfos}>
               <Text style={styles.title}>Interstellar</Text>
@@ -86,6 +86,7 @@ const App = () => {
                 </View>
                 <ScrollView
                   horizontal={true}
+                  showsHorizontalScrollIndicator={false}
                   style={styles.actorsCarroussel}
                   contentContainerStyle={{ gap: 10 }}
                 >
