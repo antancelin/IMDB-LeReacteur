@@ -9,7 +9,6 @@ import {
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-import Constants from "expo-constants";
 
 // import des icônes
 import FontAwesome from "@expo/vector-icons/FontAwesome";
