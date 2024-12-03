@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     alignItems: "center",
     paddingVertical: 5,
+    marginTop: 10,
   },
 
   star: {
